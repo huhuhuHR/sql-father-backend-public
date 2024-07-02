@@ -1,0 +1,294 @@
+repo_name: huhuhuHR/sql-father-backend-public
+report_id: 70c55e7116221d09438b0ccfd8d8857d
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:28:12+00:00'
+requested_by: liyupi
+provider: github
+branch: master
+detected_tools_count: 22
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/sql/create_table.sql
+  detection_source: sql/create_table.sql
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+- name: Apache FreeMarker
+  description: A free Java-based template engine
+  website_url: http://freemarker.incubator.apache.org/index.html
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/4456/ymCgaIO0_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+- name: MyBatis
+  description: SQL Mapper Framework for Java
+  website_url: http://www.mybatis.org/mybatis-3/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/5582/1483254.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+- name: Apache Maven
+  description: Apache build manager for Java projects.
+  website_url: http://maven.apache.org/
+  version: 3.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/package_manager/977/default_9833f2ef0bbc2a946b4cc5e9307264033361076b.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public
+  detection_source: Repo Metadata
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/src/main/resources/application.yml
+  detection_source: src/main/resources/application.yml
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+- name: cn.hutool:hutool-all
+  description: 提供丰富的Java工具方法，此模块为Hutool所有模块的打包汇总，最终形式为一个jar包
+  version: 5.8.8
+  license: FSFAP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+  vulnerabilities:
+  - name: Dromara Hutool Deserialization of Untrusted Data vulnerability
+    cve_id: CVE-2023-24162
+    cve_url: https://github.com/advisories/GHSA-77h8-5j3h-jcjf
+    detected_date: Feb 16
+    severity: critical
+    first_patched:
+  - name: Dromara hutool vulnerable to SQL Injection
+    cve_id: CVE-2023-24163
+    cve_url: https://github.com/advisories/GHSA-6c25-cxcc-pmc4
+    detected_date: Feb 9
+    severity: critical
+    first_patched: 5.8.21
+- name: com.alibaba:druid
+  description: An JDBC datasource implementation
+  version: 1.2.12
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  version: 2.9.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+- name: org.apache.commons:commons-lang3
+  description: Apache Commons Lang
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+- name: org.mybatis.spring.boot:mybatis-spring-boot-starter
+  description: Spring Boot Support for MyBatis
+  version: 2.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+- name: org.springframework.boot:spring-boot-configuration-processor
+  description: Spring Boot Configuration Processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+- name: org.springframework.boot:spring-boot-devtools
+  description: Spring Boot Developer Tools
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-aop
+  description: Starter for aspect-oriented programming with Spring AOP and AspectJ
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/sql-father-backend-public/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: yupi
+  last_updated_on: 2022-10-19 05:31:18.000000000 Z
